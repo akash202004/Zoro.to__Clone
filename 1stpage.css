@@ -1,0 +1,628 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.header {
+    background-color:transparent;
+    height: 65px;
+}
+
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12px;
+}
+
+.fa-bars{
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 18px;
+    left: 12px;
+    z-index: 3;
+}
+
+/* Logo of ZORO.to */
+.nav-list-logo img {
+    height: 43px;
+    width: 143px;
+    padding: 8px 0px;
+    position: absolute;
+    top: 3px;
+    left: 53px;
+    z-index: 3;
+}
+
+/* Serach Bar */
+.nav-list-search {
+    position: absolute;
+    top: 11px;
+    left: 228px;
+    z-index: 3;
+}
+
+.nav-list-search input {
+    height: 38px;
+    width: 346px;
+}
+
+/* Filter icon in Serach bar */
+.filter-icon {
+    height: 25px;
+    cursor: pointer;
+    line-height: 26px;
+    font-size: 11px;
+    background: #4a4b51;
+    color: #fff;
+    padding: 0 6px;
+    border-radius: 3px;
+    position: absolute;
+    left: 532px;
+    top: 20px;
+    text-decoration: none;
+    z-index: 4;
+}
+
+/* serach icon */
+.search-icon {
+    position: absolute;
+    left: 500px;
+    top: 21px;
+    z-index: 4;
+    font-size: 23px;
+    cursor: pointer;
+    color: #000000;
+}
+
+/* Social Media Icons */
+.nav-list-social {
+    list-style: none;
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    z-index: 3;
+}
+
+.social-icon-discord{
+    height: 20px;
+    cursor: pointer;
+    line-height: 32px;
+    background: #6F85D5;
+    color: #fff;
+    padding: 6px 1px;
+    border-radius: 70px;
+    position: absolute;
+    right: 384px;
+    top: 16px;
+    text-decoration: none;
+    font-size: 31px;
+}
+
+.social-icon-reddit {
+    height: 20px;
+    cursor: pointer;
+    line-height: 32px;
+    background: #FF3C1F;
+    color: #fff;
+    padding: 6px 1px;
+    border-radius: 70px;
+    position: absolute;
+    right: 348px;
+    top: 16px;
+    text-decoration: none;
+    font-size: 31px;
+}
+
+.social-icon-twitter {
+    height: 20px;
+    cursor: pointer;
+    line-height: 32px;
+    background: #1D9BF0;
+    color: #fff;
+    padding: 6px 1px;
+    border-radius: 70px;
+    position: absolute;
+    right: 312px;
+    top: 16px;
+    text-decoration: none;
+    font-size: 31px;
+}
+
+.social-icon-facebook {
+    height: 20px;
+    cursor: pointer;
+    line-height: 32px;
+    background: #1900ff;
+    color: #fff;
+    padding: 6px 1px;
+    border-radius: 70px;
+    position: absolute;
+    right: 276px;
+    top: 16px;
+    text-decoration: none;
+    font-size: 31px;
+}
+
+/* Watch2gether Icon */
+.live-server {
+    position: absolute;
+    color: #CAE962;
+    top: 15px;
+    right: 695px;
+    font-size: 26px;
+    z-index: 3;
+}
+
+.Watch2gether {
+    position: absolute;
+    color: white;
+    top: 42px;
+    right: 669px;
+    font-size: 12px;
+    z-index: 3;
+}
+
+/* Random Icon */
+.cross {
+    position: absolute;
+    color: #CAE962;
+    top: 11px;
+    right: 610px;
+    font-size: 32px;
+    z-index: 3;
+}
+
+.Random {
+    position: absolute;
+    color: white;
+    top: 42px;
+    right: 603px;
+    font-size: 12px;
+    z-index: 3;
+}
+
+/* ENJP icon */
+.EN {
+    height: 24px;
+    cursor: pointer;
+    line-height: 25px;
+    font-size: 12px;
+    background: #CAE962;
+    color: #4D5059;
+    padding: 0 7px;
+    border-radius: 3px 0px 0px 3px;
+    position: absolute;
+    right: 538px;
+    top: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 3;
+}
+
+.JP {
+    height: 24px;
+    cursor: pointer;
+    line-height: 25px;
+    font-size: 12px;
+    background: #4D5059;
+    color: #fff;
+    padding: 0 8px;
+    border-radius: 0px 3px 3px 0px;
+    position: absolute;
+    right: 513px;
+    top: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 3;
+}
+
+.Anime {
+    position: absolute;
+    color: white;
+    top: 42px;
+    right: 506px;
+    font-size: 12px;
+    z-index: 3;
+}
+
+/* community icon */
+.chat{
+    position: absolute;
+    color: #CAE962;
+    top: 15px;
+    right: 433px;
+    font-size: 31px;
+    z-index: 3;
+}
+
+.community {
+    position: absolute;
+    color: white;
+    top: 42px;
+    right: 415px;
+    font-size: 12px;
+    z-index: 3;
+}
+
+/* Doante */
+.Donate {
+    height: 32px;
+    width: 71px;
+    cursor: pointer;
+    background: #00FFB7;
+    padding: 0 6px;
+    border-radius: 57px;
+    position: absolute;
+    right: 308px;
+    top: 17px;
+    text-decoration: none;
+    z-index: 3;
+}
+
+.Donate-text {
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    padding: 0 6px;
+    position: absolute;
+    right: 319px;
+    top: 22px;
+    text-decoration: none;
+    z-index: 3;
+}
+
+/* Login */
+.login {
+    height: 42px;
+    width: 66px;
+    cursor: pointer;
+    background: #CAE962;
+    padding: 0 6px;
+    border-radius: 5px;
+    position: absolute;
+    right: 14px;
+    top: 11px;
+    text-decoration: none;
+    z-index: 3;
+}
+
+.login-text {
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    padding: 0 6px;
+    position: absolute;
+    right: 28px;
+    top: 22px;
+    text-decoration: none;
+    z-index: 3;
+}
+
+.back-image img{
+    position: absolute;
+    object-fit: fill;
+    width: 100%;
+    height: 100vh;
+    top: 65px;
+    filter: blur(0px);
+    z-index: 1;
+}
+
+/* Image adjust and give Box-Shadow */
+.image-container {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .image-container::after {
+    content: "";
+    position: absolute;
+    top: -83px;
+    left: 0;
+    width: 1536px;
+    height: 739px;
+    box-shadow: inset 19px -20px 200px 200px rgb(32, 33, 37);
+    z-index: 1;
+  }
+  
+  .image-container img {
+    position: absolute;
+    top: -83px;
+    width: 1536px;
+    height: 739px;
+}
+  
+/* Spotlight text */
+.spotlight-text{
+    color:#cae962;
+    position: absolute;
+    top: 237px;
+    left: 42px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3em;
+    z-index: 5;
+}
+
+/* bleach name */
+.bleach-text {
+    position: absolute;
+    font-size: 71px;
+    font-weight: 600;
+    left: 42px;
+    top: 261px;
+    z-index: 5;
+    color: #fff;
+
+}
+
+/* Description */
+.descrip-text {
+    position: absolute;
+    color: #fff;
+    top: 404px;
+    left: 42px;
+    z-index: 5;
+    font-size: 14px;
+    font-weight: 350;
+}
+
+/* time and update section */
+.TV {
+    position: absolute;
+    color: #fff;
+    top: 365px;
+    left: 63px;
+    z-index: 5;
+    font-size: 14px;
+    font-weight: 350;
+}
+
+.time-text {
+    position: absolute;
+    color: #fff;
+    top: 365px;
+    left: 119px;
+    z-index: 5;
+    font-size: 14px;
+    font-weight: 350;
+}
+
+.oct{
+    position: absolute;
+    color: #fff;
+    top: 365px;
+    left: 185px;
+    z-index: 5;
+    font-size: 14px;
+    font-weight: 350;
+}
+
+.audio-icon {
+    position: absolute;
+    top: 366px;
+    left: 44px;
+    font-size: 17px;
+    z-index: 5;
+    color: white;
+}
+
+.time-icon {
+    position: absolute;
+    top: 366px;
+    left: 99px;
+    font-size: 17px;
+    z-index: 5;
+    color: white;
+}
+
+.date-icon {
+    position: absolute;
+    top: 365px;
+    left: 165px;
+    font-size: 17px;
+    z-index: 5;
+    color: white;
+}
+
+/* Watch now icon */
+.Watch {
+    height: 34px;
+    width: 121px;
+    cursor: pointer;
+    background: #cae962;
+    padding: 0 6px;
+    border-radius: 72px;
+    position: absolute;
+    left: 44px;
+    top: 510px;
+    text-decoration: none;
+    z-index: 5;
+}
+
+.Watch-text {
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    padding: 0 6px;
+    position: absolute;
+    left: 75px;
+    top: 515px;
+    text-decoration: none;
+    z-index: 5;
+}
+
+.audio-icon-watch {
+    position: absolute;
+    top: 516px;
+    left: 53px;
+    font-size: 22px;
+    z-index: 5;
+    color: black;
+
+}
+
+/* Details icon */
+.Details{
+    height: 34px;
+    width: 83px;
+    cursor: pointer;
+    background: #4D5059;
+    padding: 0 6px;
+    border-radius: 72px;
+    position: absolute;
+    left: 194px;
+    top: 510px;
+    text-decoration: none;
+    z-index: 5;
+}
+
+.Details-text {
+    height: 41px;
+    width: 121px;
+    cursor: pointer;
+    color: white;
+    padding: 0 6px;
+    border-radius: 72px;
+    position: absolute;
+    left: 203px;
+    top: 513px;
+    text-decoration: none;
+    z-index: 5;
+    font-size: 18px;
+}
+
+/* HD icon */
+.HD{
+    height: 21px;
+    width: 18px;
+    cursor: pointer;
+    background: #CAE962;
+    padding: 0 6px;
+    border-radius: 5px;
+    position: absolute;
+    top: 363px;
+    left: 283px;
+    text-decoration: none;
+    z-index: 5
+}
+
+.HD-text{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    padding: 0 6px;
+    position: absolute;
+    top: 362px;
+    left: 282px;
+    z-index: 5;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* cc icon */
+.cc{
+    height: 21px;
+    width: 32px;
+    cursor: pointer;
+    background: rgb(176, 227, 175);
+    padding: 0 6px;
+    border-radius: 4px 0px 0px 4px;
+    position: absolute;
+    top: 363px;
+    left: 322px;
+    text-decoration: none;
+    z-index: 5;
+}
+
+.cc-text {
+    cursor: pointer;
+    color: #000000;
+    padding: 0 6px;
+    position: absolute;
+    top: 364px;
+    left: 336px;
+    z-index: 5;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.fa-closed-captioning{
+    position: absolute;
+    top: 367px;
+    left: 327px;
+    z-index: 5;
+    font-size: 13px;
+    color: #000000;
+}
+
+/* micro icon */
+.micro {
+    height: 21px;
+    width: 32px;
+    cursor: pointer;
+    background: rgb(227, 181, 205);
+    padding: 0 6px;
+    border-radius: 0px;
+    position: absolute;
+    top: 363px;
+    left: 369px;
+    text-decoration: none;
+    z-index: 5;
+}
+
+.micro-text {
+    cursor: pointer;
+    color: #000000;
+    padding: 0 6px;
+    position: absolute;
+    top: 364px;
+    left: 383px;
+    z-index: 5;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.mic-icon {
+    position: absolute;
+    font-size: 13px;
+    top: 366px;
+    left: 373px;
+    z-index: 5;
+    color: #000000;
+    cursor: pointer;
+}
+
+/* number icon */
+.number{
+    height: 21px;
+    width: 19px;
+    cursor: pointer;
+    background: rgb(70, 70, 73);
+    padding: 0 6px;
+    border-radius: 0px 4px 4px 0px;
+    position: absolute;
+    top: 363px;
+    left: 414px;
+    text-decoration: none;
+    z-index: 5;
+}
+
+.number-text {
+    cursor: pointer;
+    color: #ffffff;
+    padding: 0 6px;
+    position: absolute;
+    top: 364px;
+    left: 412px;
+    z-index: 5;
+    font-size: 13px;
+    font-weight: 500;
+}
